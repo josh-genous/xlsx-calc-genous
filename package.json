@@ -3,7 +3,7 @@
   "version": "0.9.1",
   "description": "A simple xlsx formula calculator.",
   "main": "src/index.js",
-  "repository": "git@github.com:fabiooshiro/xlsx-calc.git",
+  "repository": "git@github.com:josh-genous/xlsx-calc-genous.git",
   "author": "Sr Oshiro <fabio.oshiro@gmail.com>",
   "scripts": {
     "test": "mocha",
