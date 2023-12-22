@@ -5,7 +5,7 @@ const int_2_col_str = require('./int_2_col_str.js');
 const getSanitizedSheetName = require('./getSanitizedSheetName.js');
 let memo = {}, wb;
 
-module.exports = function Range(str_expression, formula) {
+function Range(str_expression, formula) {
     this.calc = function() {
         if (wb !== formula.wb) {
             wb = formula.wb;
@@ -77,3 +77,10 @@ module.exports = function Range(str_expression, formula) {
         return matrix;
     };
 };
+
+Range.reset = () => {
+    memo = {}
+    wb = null
+}
+
+module.exports = Range
