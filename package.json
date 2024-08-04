@@ -1,6 +1,6 @@
 {
   "name": "xlsx-calc-genous",
-  "version": "0.9.1",
+  "version": "0.9.6",
   "description": "A simple xlsx formula calculator.",
   "main": "src/index.js",
   "repository": "git@github.com:josh-genous/xlsx-calc-genous.git",
